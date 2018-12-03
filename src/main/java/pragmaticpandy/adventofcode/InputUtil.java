@@ -22,4 +22,12 @@ public class InputUtil {
 
         return Optional.of(new String(ByteStreams.toByteArray(inputStream), UTF_8).trim());
     }
+
+    public String[] splitByNewlines(@NonNull final String input) {
+        return input.split("\\r?\\n");
+    }
+
+    public String[] splitByWhitespace(@NonNull final String input) {
+        return input.split("\\s+");
+    }
 }
