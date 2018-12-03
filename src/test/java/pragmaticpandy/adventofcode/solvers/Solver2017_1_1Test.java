@@ -11,7 +11,7 @@ public class Solver2017_1_1Test {
     @Test
     public void testRealInput() {
         assertEquals(
-            1177,
+            1034,
             Integer.parseInt(
                 sut.solve(new InputUtil().getStringFromResourceFile("input-2017-1.txt").get())));
     }

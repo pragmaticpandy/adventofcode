@@ -11,7 +11,7 @@ public class Solver2017_3_1Test {
     @Test
     public void testRealInput() {
         assertEquals(
-            326,
+            480,
             Integer.parseInt(
                 sut.solve(new InputUtil().getStringFromResourceFile("input-2017-3.txt").get())));
     }

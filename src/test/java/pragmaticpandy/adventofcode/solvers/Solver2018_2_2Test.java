@@ -11,7 +11,7 @@ public class Solver2018_2_2Test {
     @Test
     public void testRealInput() {
         assertEquals(
-            "nmgyjkpruszlbaqwficavxneo",
+            "lnfqdscwjyteorambzuchrgpx",
             sut.solve(new InputUtil().getStringFromResourceFile("input-2018-2.txt").get()));
     }
 }
