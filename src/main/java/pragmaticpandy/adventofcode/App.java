@@ -23,6 +23,8 @@ public class App {
         .put("2018-2-2", new Solver2018_2_2())
         .put("2018-3-1", new Solver2018_3(1))
         .put("2018-3-2", new Solver2018_3(2))
+        .put("2018-4-1", new Solver2018_4(1))
+        .put("2018-4-2", new Solver2018_4(2))
         .build();
 
     public static void main(String[] args) throws Exception {
