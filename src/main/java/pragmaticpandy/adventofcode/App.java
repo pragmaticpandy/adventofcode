@@ -25,6 +25,8 @@ public class App {
         .put("2018-3-2", new Solver2018_3(2))
         .put("2018-4-1", new Solver2018_4(1))
         .put("2018-4-2", new Solver2018_4(2))
+        .put("2018-5-1", new Solver2018_5(1))
+        .put("2018-5-2", new Solver2018_5(2))
         .build();
 
     public static void main(String[] args) throws Exception {
